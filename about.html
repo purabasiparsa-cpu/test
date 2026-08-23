@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A modern and responsive About page.">
+  <title>About Me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="about-card" aria-labelledby="about-title">
+      <div class="about-content">
+        <span class="eyebrow">ABOUT ME</span>
+        <h1 id="about-title">Turning ideas into <span>digital experiences.</span></h1>
+        <p class="intro">
+          I'm a passionate developer and designer who enjoys creating clean,
+          modern and user-friendly digital experiences. I focus on thoughtful
+          interfaces, responsive layouts and code that is simple to maintain.
+        </p>
+
+        <div class="stats" aria-label="Personal highlights">
+          <div class="stat">
+            <strong>01+</strong>
+            <span>Years learning</span>
+          </div>
+          <div class="stat">
+            <strong>10+</strong>
+            <span>Projects</span>
+          </div>
+          <div class="stat">
+            <strong>100%</strong>
+            <span>Passion</span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <a class="btn btn-primary" href="#contact">Let's connect <span>→</span></a>
+          <a class="btn btn-secondary" href="#skills">View skills</a>
+        </div>
+      </div>
+
+      <div class="visual" aria-hidden="true">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="profile-placeholder">
+          <div class="profile-icon">P</div>
+          <span>Creative<br>Developer</span>
+        </div>
+        <div class="floating-card card-top">HTML <b>+</b> CSS</div>
+        <div class="floating-card card-bottom">UI / UX <b>✦</b></div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills" aria-labelledby="skills-title">
+      <div>
+        <span class="eyebrow">WHAT I DO</span>
+        <h2 id="skills-title">Skills & focus</h2>
+      </div>
+      <div class="skill-list">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>Responsive Design</span>
+        <span>UI / UX</span>
+        <span>WordPress</span>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div>
+        <span class="eyebrow">GET IN TOUCH</span>
+        <h2 id="contact-title">Have an idea? Let's build it.</h2>
+      </div>
+      <a class="btn btn-primary" href="mailto:hello@example.com">Contact me →</a>
+    </section>
+  </main>
+</body>
+</html>
